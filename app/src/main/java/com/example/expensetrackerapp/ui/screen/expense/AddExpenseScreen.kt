@@ -154,7 +154,7 @@ fun InputForm(
                 viewModel.onStateChange(amount = if(it.isBlank())0 else it.toInt())
             },
             leadingIcon = {
-                Text(text = "Rp")
+                Text(text = "Rs")
             },
             placeholder = { Text(text = "10.000", color = Color.Gray) },
             singleLine = true,

@@ -124,7 +124,7 @@ fun SummaryBox(tabIndex:Int, expenseList: State<List<Expense>>){
             fontWeight = FontWeight.Medium
         )
         Text(
-            text = "Rp. ${ConvertDecimal(expenseListSummary)}",
+            text = "Rs. ${ConvertDecimal(expenseListSummary)}",
             color = Color.White,
             fontSize = 40.sp,
             fontWeight = FontWeight.Medium,
@@ -213,7 +213,7 @@ fun CardItem(expense: Expense,viewModel: MainViewModel){
                 }
             }
             Text(
-                text = "Rp. ${ConvertDecimal(expense.amount)}",
+                text = "Rs. ${ConvertDecimal(expense.amount)}",
                 fontWeight = FontWeight.Medium
             )
         }

@@ -56,7 +56,7 @@ fun DetailExpenseScreen(showBottomSheet: MutableState<Boolean>,showBottomSheetMo
                 color = Color.Gray
             )
             Text(
-                text = "Rp. ${ConvertDecimal(expense.amount)}",
+                text = "Rs. ${ConvertDecimal(expense.amount)}",
                 fontWeight = FontWeight.Bold,
                 fontSize = 24.sp
             )

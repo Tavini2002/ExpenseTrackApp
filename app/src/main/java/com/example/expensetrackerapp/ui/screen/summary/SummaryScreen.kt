@@ -183,7 +183,7 @@ fun CardSummaryItem(categories:String,expenseList: State<List<Expense>>,totalAmo
                 horizontalAlignment = Alignment.End
             ) {
                 Text(
-                    text = "Rp. ${ConvertDecimal(amountCategory)}",
+                    text = "Rs. ${ConvertDecimal(amountCategory)}",
                     fontWeight = FontWeight.Bold
                 )
                 Text(
